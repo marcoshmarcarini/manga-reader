@@ -1,18 +1,12 @@
 import Link from "next/link";
+import DashboardLayout from "./DashboardLayout/Layout";
 
-export default function Dashboard(){
-    return(
-        <>
-            <h1>Dashboard</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <Link href={'/dashboard/create-post'}>
-                            Create Post
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-        </>
-    )
+export default function Dashboard() {
+  return (
+    <>
+      <DashboardLayout>
+        <h1>Dashboard</h1>
+      </DashboardLayout>
+    </>
+  );
 }

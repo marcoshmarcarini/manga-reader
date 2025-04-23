@@ -1,6 +1,6 @@
 import CreatePost from "@/components/Posts/CreatePost/page";
 
-export default function CriarPost() {
+export default function Create() {
     return (
         <>
             <h1>Crie seu Post</h1>
