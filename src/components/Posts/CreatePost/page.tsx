@@ -21,6 +21,8 @@ export default function CreatePost() {
       timeStamp: new Date(),
     });
 
+    
+
     setPost({
       title: "",
       description: "",

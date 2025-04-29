@@ -1,5 +1,4 @@
-import Link from "next/link";
-import DashboardLayout from "./DashboardLayout/Layout";
+import DashboardLayout from "./DashboardLayout/layout";
 
 export default function Dashboard() {
   return (

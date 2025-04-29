@@ -1,0 +1,33 @@
+
+
+.nav{
+    background-color: var(--geist-background);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: sticky;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: oklch(27.9% 0.041 260.031);
+}
+
+.navList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navItem{
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 200px;
+    background-color: oklch(55.4% 0.046 257.417);
+    border: 1px solid oklch(92.9% 0.013 255.508);
+}

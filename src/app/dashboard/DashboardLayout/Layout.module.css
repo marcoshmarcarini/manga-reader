@@ -1,0 +1,5 @@
+.body_content{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+}
